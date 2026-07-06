@@ -1,16 +1,107 @@
-# React + Vite
+# AI-Powered Video to Structured Notes Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered web application that converts tutorial videos into structured, easy-to-understand study notes by combining screenshots, speech transcription, AI-generated explanations, and user voice notes into exportable PDF documents.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🎥 Upload tutorial videos or provide a video URL
+- 🖼️ Capture important screenshots from videos
+- 🎙️ Convert spoken content into text using speech-to-text
+- 🤖 Generate structured notes with AI
+- 📝 Add personal voice notes and annotations
+- 📄 Export complete notes as a well-formatted PDF
+- 📚 Organize notes for efficient revision
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
 
-## Expanding the ESLint configuration
+### Backend
+- Node.js
+- Express.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Database
+- MongoDB
+
+### AI & APIs
+- OpenAI API (or Gemini API)
+- Speech-to-Text API
+- PDF Generation Library
+
+## 📂 Project Structure
+
+
+src/
+├── assets/
+├── components/
+├── pages/
+├── services/
+├── hooks/
+├── utils/
+├── context/
+├── App.jsx
+└── main.jsx
+
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+bash
+git clone https://github.com/anurag-2607/ai-powered-video-to-structured-notes-generator.git
+
+
+### Navigate to the project
+
+bash
+cd ai-powered-video-to-structured-notes-generator
+
+
+### Install dependencies
+
+bash
+npm install
+
+
+### Start the development server
+
+bash
+npm run dev
+
+
+The application will be available at:
+
+
+http://localhost:5173
+
+
+## 🎯 Future Enhancements
+
+- Authentication and user accounts
+- Cloud storage for notes
+- Multi-language transcription
+- AI-powered summaries and quizzes
+- Collaborative note sharing
+- Dark mode
+- Mobile responsive interface
+
+## 📸 Screenshots
+
+Screenshots will be added after development.
+
+## 🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+Developed by *Anurag Lakhara*
