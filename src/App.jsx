@@ -1,10 +1,11 @@
+import './App.css'; 
 import { useState } from 'react';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Login from './pages/Login';
-import Signup from './pages/Signup';
-import ForgotPassword from './pages/ForgotPassword';
-import { useAuth } from './hooks/useAuth';
+import Navbar from './authentication/components/Navbar';
+import Home from './authentication/pages/Home';
+import Login from './authentication/pages/Login';
+import Signup from './authentication/pages/Signup';
+import ForgotPassword from './authentication/pages/ForgotPassword';
+import { useAuth } from './authentication/hooks/useAuth';
 
 export default function App() {
   const [page, setPage] = useState('home');
