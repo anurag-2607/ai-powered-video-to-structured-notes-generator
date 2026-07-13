@@ -1,7 +1,7 @@
 # AI-Powered Video to Structured Notes Generator
 
 An AI-powered web application that converts tutorial videos into structured, easy-to-understand study notes by combining screenshots, speech transcription, AI-generated explanations, and user voice notes into exportable PDF documents.
-<!-- 
+
 ## ✨ Features
 
 - 🎥 Upload tutorial videos or provide a video URL
@@ -32,7 +32,7 @@ An AI-powered web application that converts tutorial videos into structured, eas
 - OpenAI API (or Gemini API)
 - Speech-to-Text API
 - PDF Generation Library
-
+<!-- 
 ## 📂 Project Structure
 
 
@@ -45,7 +45,7 @@ src/
 ├── utils/
 ├── context/
 ├── App.jsx
-└── main.jsx
+└── main.jsx -->
 
 
 ## 🚀 Getting Started
@@ -96,7 +96,7 @@ Screenshots will be added after development.
 
 ## 🤝 Contributing
 
-Contributions, suggestions, and improvements are welcome. -->
+Contributions, suggestions, and improvements are welcome.
 
 ## 📄 License
 
