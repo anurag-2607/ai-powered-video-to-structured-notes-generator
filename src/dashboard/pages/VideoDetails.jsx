@@ -31,8 +31,8 @@ export default function VideoDetails({ setSubPage }) {
           <p className="text-xs text-zinc-400 mt-0.5">Ready to review semantic timestamp cards, timeline metrics, and document layout configurations.</p>
         </div>
         {/* This triggers code paths mapped to your `ai/` workspace folders later */}
-        <button 
-          onClick={() => alert("Connecting target workspace to components located inside the adjacent /ai/ directory framework structures now.")}
+        <button
+          onClick={() => setSubPage('editor-studio')}
           className="whitespace-nowrap px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-xs font-bold rounded-lg tracking-wide shadow-md transition-all"
         >
           Initialize Interactive AI Editor Studio

@@ -5,6 +5,7 @@ import Sidebar from '../components/Sidebar';
 import VideoCard from '../components/VideoCard';
 import Modal from '../components/Modal';
 import Loading from '../components/Loading';
+import EditorStudio from '../../ai/pages/EditorStudio';
 
 // Import local sub-page layouts
 import UploadVideo from './UploadVideo';
@@ -81,7 +82,11 @@ function DashboardContent({ setPage }) {
               {subPage === 'notes' && <MyNotes setSubPage={setSubPage} />}
               {subPage === 'profile' && <Profile />}
               {subPage === 'video-details' && <VideoDetails setSubPage={setSubPage} />}
-              {!['overview', 'upload', 'notes', 'profile', 'video-details'].includes(subPage) && <NotFound setSubPage={setSubPage} />}
+              {/* Added Interactive AI Workspace Routing */}
+              {subPage === 'editor-studio' && <EditorStudio setSubPage={setSubPage} />}
+              
+              {/* Updated validation array below to include 'editor-studio' */}
+              {!['overview', 'upload', 'notes', 'profile', 'video-details', 'editor-studio'].includes(subPage) && <NotFound setSubPage={setSubPage} />}
             </>
           )}
         </main>
